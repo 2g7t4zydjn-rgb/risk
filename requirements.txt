@@ -1,0 +1,6 @@
+pandas
+numpy
+groq
+streamlit
+chromadb
+scikit-learn

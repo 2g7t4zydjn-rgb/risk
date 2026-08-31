@@ -1,0 +1,49 @@
+transaction_id,customer_id,timestamp,amount,country,merchant_type,rule_reasons,true_is_anomaly
+TXN001214,CUST0000,2026-08-25 16:00:00,2411.5,AZ,grocery,"[""Amount (2411.5) is 47.6 standard deviations above the customer's average""]",1
+TXN001216,CUST0001,2026-08-26 13:00:00,354.32,RU,cash_withdrawal,"[""Amount (354.32) is 6.0 standard deviations above the customer's average"", ""Transaction occurred in RU, but the customer's home country is AZ""]",1
+TXN000084,CUST0002,2026-08-02 13:30:00,223.0,AZ,electronics,"[""Amount (223.0) is 3.2 standard deviations above the customer's average""]",0
+TXN000169,CUST0004,2026-08-15 17:29:00,91.79,AZ,restaurant,['3 transactions occurred within a 15-minute window (unusual)'],0
+TXN001231,CUST0005,2026-08-15 09:00:00,153.61,AZ,online_retail,['4 transactions occurred within a 15-minute window (unusual)'],1
+TXN001232,CUST0005,2026-08-15 09:03:00,178.39,AZ,online_retail,['4 transactions occurred within a 15-minute window (unusual)'],1
+TXN001233,CUST0005,2026-08-15 09:06:00,169.13,AZ,online_retail,['4 transactions occurred within a 15-minute window (unusual)'],1
+TXN001234,CUST0005,2026-08-15 09:09:00,149.71,AZ,online_retail,['4 transactions occurred within a 15-minute window (unusual)'],1
+TXN001209,CUST0005,2026-08-15 15:00:00,353.37,RU,cash_withdrawal,"[""Amount (353.37) is 6.8 standard deviations above the customer's average"", ""Transaction occurred in RU, but the customer's home country is AZ""]",1
+TXN001200,CUST0005,2026-08-25 09:00:00,2797.2,AZ,restaurant,"[""Amount (2797.2) is 96.4 standard deviations above the customer's average""]",1
+TXN001224,CUST0006,2026-08-28 18:00:00,180.45,AZ,online_retail,['4 transactions occurred within a 15-minute window (unusual)'],1
+TXN001225,CUST0006,2026-08-28 18:03:00,203.12,AZ,online_retail,['4 transactions occurred within a 15-minute window (unusual)'],1
+TXN001226,CUST0006,2026-08-28 18:06:00,191.68,AZ,online_retail,['4 transactions occurred within a 15-minute window (unusual)'],1
+TXN001227,CUST0006,2026-08-28 18:09:00,184.03,AZ,online_retail,['4 transactions occurred within a 15-minute window (unusual)'],1
+TXN001221,CUST0007,2026-08-28 15:00:00,1308.77,AZ,cash_withdrawal,"[""Amount (1308.77) is 42.0 standard deviations above the customer's average""]",1
+TXN001203,CUST0008,2026-08-21 09:00:00,144.27,AZ,online_retail,['4 transactions occurred within a 15-minute window (unusual)'],1
+TXN001204,CUST0008,2026-08-21 09:03:00,90.96,AZ,online_retail,['4 transactions occurred within a 15-minute window (unusual)'],1
+TXN001205,CUST0008,2026-08-21 09:06:00,165.36,AZ,online_retail,['4 transactions occurred within a 15-minute window (unusual)'],1
+TXN001206,CUST0008,2026-08-21 09:09:00,194.77,AZ,online_retail,['4 transactions occurred within a 15-minute window (unusual)'],1
+TXN001207,CUST0009,2026-08-24 11:00:00,2451.1,AZ,online_retail,"[""Amount (2451.1) is 58.9 standard deviations above the customer's average""]",1
+TXN001242,CUST0010,2026-08-28 13:00:00,2692.24,AZ,jewelry,"[""Amount (2692.24) is 49.5 standard deviations above the customer's average""]",1
+TXN001208,CUST0011,2026-08-06 04:00:00,101.44,AZ,cash_withdrawal,"[""Transaction occurred at 4:00 - outside the customer's typical active hours""]",1
+TXN001237,CUST0011,2026-08-14 16:00:00,209.68,RU,cash_withdrawal,"[""Amount (209.68) is 7.5 standard deviations above the customer's average"", ""Transaction occurred in RU, but the customer's home country is AZ""]",1
+TXN001201,CUST0011,2026-08-26 04:00:00,119.46,AZ,cash_withdrawal,"[""Transaction occurred at 4:00 - outside the customer's typical active hours""]",1
+TXN001202,CUST0012,2026-08-20 14:00:00,290.82,AE,cash_withdrawal,"[""Amount (290.82) is 9.9 standard deviations above the customer's average"", ""Transaction occurred in AE, but the customer's home country is AZ""]",1
+TXN001217,CUST0012,2026-08-23 13:00:00,165.81,AZ,online_retail,['4 transactions occurred within a 15-minute window (unusual)'],1
+TXN001218,CUST0012,2026-08-23 13:03:00,152.2,AZ,online_retail,['4 transactions occurred within a 15-minute window (unusual)'],1
+TXN001219,CUST0012,2026-08-23 13:06:00,144.31,AZ,online_retail,['4 transactions occurred within a 15-minute window (unusual)'],1
+TXN001220,CUST0012,2026-08-23 13:09:00,140.08,AZ,online_retail,['4 transactions occurred within a 15-minute window (unusual)'],1
+TXN001222,CUST0013,2026-08-26 03:00:00,288.4,AZ,cash_withdrawal,"[""Transaction occurred at 3:00 - outside the customer's typical active hours""]",1
+TXN001210,CUST0015,2026-08-04 19:00:00,164.91,AZ,online_retail,['4 transactions occurred within a 15-minute window (unusual)'],1
+TXN001211,CUST0015,2026-08-04 19:03:00,111.27,AZ,online_retail,['4 transactions occurred within a 15-minute window (unusual)'],1
+TXN001212,CUST0015,2026-08-04 19:06:00,61.19,AZ,online_retail,['4 transactions occurred within a 15-minute window (unusual)'],1
+TXN001213,CUST0015,2026-08-04 19:09:00,113.68,AZ,online_retail,['4 transactions occurred within a 15-minute window (unusual)'],1
+TXN001215,CUST0016,2026-08-23 02:00:00,320.34,AZ,cash_withdrawal,"[""Transaction occurred at 2:00 - outside the customer's typical active hours""]",1
+TXN001229,CUST0018,2026-08-01 04:00:00,113.93,AZ,cash_withdrawal,"[""Transaction occurred at 4:00 - outside the customer's typical active hours""]",1
+TXN001235,CUST0018,2026-08-13 08:00:00,865.36,AZ,cash_withdrawal,"[""Amount (865.36) is 17.8 standard deviations above the customer's average""]",1
+TXN000791,CUST0019,2026-08-18 07:50:00,198.15,AZ,jewelry,"[""Amount (198.15) is 3.1 standard deviations above the customer's average""]",0
+TXN001230,CUST0020,2026-08-10 13:00:00,478.87,TR,cash_withdrawal,"[""Amount (478.87) is 18.0 standard deviations above the customer's average"", ""Transaction occurred in TR, but the customer's home country is AZ""]",1
+TXN001236,CUST0020,2026-08-16 02:00:00,260.63,AZ,cash_withdrawal,"[""Transaction occurred at 2:00 - outside the customer's typical active hours""]",1
+TXN000900,CUST0022,2026-08-23 10:50:00,210.11,AZ,grocery,"[""Amount (210.11) is 3.5 standard deviations above the customer's average""]",0
+TXN001228,CUST0025,2026-08-22 08:00:00,500.7,AZ,jewelry,"[""Amount (500.7) is 18.3 standard deviations above the customer's average""]",1
+TXN001223,CUST0028,2026-08-29 14:00:00,491.69,AE,cash_withdrawal,"[""Amount (491.69) is 8.0 standard deviations above the customer's average"", ""Transaction occurred in AE, but the customer's home country is AZ"", '6 transactions occurred within a 15-minute window (unusual)']",1
+TXN001238,CUST0028,2026-08-29 14:00:00,257.38,AZ,online_retail,['6 transactions occurred within a 15-minute window (unusual)'],1
+TXN001239,CUST0028,2026-08-29 14:03:00,255.68,AZ,online_retail,['6 transactions occurred within a 15-minute window (unusual)'],1
+TXN001240,CUST0028,2026-08-29 14:06:00,204.79,AZ,online_retail,['6 transactions occurred within a 15-minute window (unusual)'],1
+TXN001150,CUST0028,2026-08-29 14:07:00,166.7,AZ,online_retail,['6 transactions occurred within a 15-minute window (unusual)'],0
+TXN001241,CUST0028,2026-08-29 14:09:00,211.61,AZ,online_retail,['6 transactions occurred within a 15-minute window (unusual)'],1
